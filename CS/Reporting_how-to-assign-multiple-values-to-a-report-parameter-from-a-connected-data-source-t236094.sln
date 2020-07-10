@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiValueParametersExample", "Reporting_how-to-assign-multiple-values-to-a-report-parameter-from-a-connected-data-source-t236094\MultiValueParametersExample.csproj", "{80071A82-F0EA-4CFE-8CC2-90FA59A59F45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80071A82-F0EA-4CFE-8CC2-90FA59A59F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80071A82-F0EA-4CFE-8CC2-90FA59A59F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80071A82-F0EA-4CFE-8CC2-90FA59A59F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80071A82-F0EA-4CFE-8CC2-90FA59A59F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE9BE7EB-9E66-40B6-9A2A-6CAED3EE8EEA}
+	EndGlobalSection
+EndGlobal
