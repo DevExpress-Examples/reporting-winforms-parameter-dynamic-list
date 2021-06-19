@@ -1,7 +1,7 @@
 *Files to look at*:
 
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
-* [Form1.cs](./CS/EmployeeDataSource.cs) (VB: [Form1.vb](./VB/EmployeeDataSource.vb))
+* [EmployeeDataSource.cs](./CS/EmployeeDataSource.cs) (VB: [EmployeeDataSource.vb](./VB/EmployeeDataSource.vb))
 
 # Create a Report Parameter with a List of Predefined Dynamic Values
 
