@@ -5,44 +5,46 @@ Imports System.Windows.Forms
 ' ...
 
 Namespace MultiValueParametersExample
-    Partial Public Class Form1
-        Inherits Form
+	Partial Public Class Form1
+		Inherits Form
 
-        Public Sub New()
-            InitializeComponent()
-        End Sub
+		Public Sub New()
+			InitializeComponent()
+		End Sub
 
-        Private Sub button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles button1.Click
-            ' Create a report instance.
-            Dim report As New XtraReport1()
+		Private Sub button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles button1.Click
+			If Not Me.button1.IsHandleCreated Then Return
 
-            ' Create a parameter and specify its name.
-            Dim param1 As New Parameter()
-            param1.Name = "CatID"
+			' Create a report instance.
+			Dim report As New XtraReport1()
 
-            ' Specify other parameter properties.
-            param1.Type = GetType(System.Int32)
-            param1.MultiValue = True
-            param1.Description = "Categories: "
+			' Create a parameter and specify its name.
+			Dim param1 As New Parameter()
+			param1.Name = "CatID"
 
-            Dim lookupSettings As New DynamicListLookUpSettings()
-            lookupSettings.DataSource = report.DataSource
-            lookupSettings.DataMember = "Categories"
-            lookupSettings.DisplayMember = "CategoryName"
-            lookupSettings.ValueMember = "CategoryId"
+			' Specify other parameter properties.
+			param1.Type = GetType(System.Int32)
+			param1.MultiValue = True
+			param1.Description = "Categories: "
 
-            param1.LookUpSettings = lookupSettings
-            param1.Visible = True
+			Dim lookupSettings As New DynamicListLookUpSettings()
+			lookupSettings.DataSource = report.DataSource
+			lookupSettings.DataMember = "Categories"
+			lookupSettings.DisplayMember = "CategoryName"
+			lookupSettings.ValueMember = "CategoryId"
 
-            ' Add the parameter to the report.
-            report.Parameters.Add(param1)
+			param1.LookUpSettings = lookupSettings
+			param1.Visible = True
 
-            ' Specify the report's filter string.
-            report.FilterString = "[CategoryID] In (?CatID)"
+			' Add the parameter to the report.
+			report.Parameters.Add(param1)
 
-            ' Assign the report to a ReportPrintTool,
-            Dim pt As New ReportPrintTool(report)
-            pt.ShowPreviewDialog()
-        End Sub
-    End Class
+			' Specify the report's filter string.
+			report.FilterString = "[CategoryID] In (?CatID)"
+
+			' Assign the report to a ReportPrintTool,
+			Dim pt As New ReportPrintTool(report)
+			pt.ShowPreviewDialog()
+		End Sub
+	End Class
 End Namespace
