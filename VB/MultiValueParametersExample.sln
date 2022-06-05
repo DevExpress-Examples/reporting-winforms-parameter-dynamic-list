@@ -1,4 +1,4 @@
-﻿Microsoft Visual Studio Solution File, Format Version 11.00
+Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MultiValueParametersExample", "MultiValueParametersExample\MultiValueParametersExample.vbproj", "{80071A82-F0EA-4CFE-8CC2-90FA59A59F45}"
 EndProject
