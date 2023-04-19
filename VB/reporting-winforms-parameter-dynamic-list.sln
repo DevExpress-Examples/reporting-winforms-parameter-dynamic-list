@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reporting_Create-Report-Parameter-with-Predefined-Dynamic-Values", "Reporting_Create-Report-Parameter-with-Predefined-Dynamic-Values.csproj", "{922439D8-9BAC-40D5-A76A-1BB371DC44C4}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Reporting_Create-Report-Parameter-with-Predefined-Dynamic-Values", "Reporting_Create-Report-Parameter-with-Predefined-Dynamic-Values.vbproj", "{922439D8-9BAC-40D5-A76A-1BB371DC44C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C4EE6520-DD97-4DC9-923C-76AA5CB50C14}
+		SolutionGuid = {24FB2EC7-706C-4471-A4B5-20E279110D32}
 	EndGlobalSection
 EndGlobal

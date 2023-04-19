@@ -1,10 +1,20 @@
-*Files to look at*:
+# WinForms Reporting - Create a Report Parameter with a List of Predefined Dynamic Values
+
+This example demonstrates how to create a report parameter with a list of predefined dynamic values loaded from an Object data source.
+
+## Files to Look At:
 
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
 * [EmployeeDataSource.cs](./CS/EmployeeDataSource.cs) (VB: [EmployeeDataSource.vb](./VB/EmployeeDataSource.vb))
 
-# Create a Report Parameter with a List of Predefined Dynamic Values
+## Documentation
 
-This example demonstrates how to create a report parameter with a list of predefined dynamic values loaded from an [Object Data Source](https://docs.devexpress.com/XtraReports/17784?v=21.1). Refer to the following documentation section for more details: [Report Parameters with Predefined Dynamic Values](https://docs.devexpress.com/XtraReports/401662?v=21.1).
+* [Bind a Report to an Object Data Source](https://docs.devexpress.com/XtraReports/17784/detailed-guide-to-devexpress-reporting/bind-reports-to-data/business-object/bind-a-report-to-an-object-data-source)
+* [Report Parameters with Predefined Dynamic Values](https://docs.devexpress.com/XtraReports/401662/detailed-guide-to-devexpress-reporting/use-report-parameters/report-parameters-with-predefined-dynamic-values) 
+
+## More Examples
+
+* [Reporting for WinForms - Add Parameters to Report at Runtime](https://github.com/DevExpress-Examples/reporting-winforms-add-report-parameters)
+* [How to assign multiple values to a report parameter](https://github.com/DevExpress-Examples/reporting-winforms-parameter-static-list)
 
 
