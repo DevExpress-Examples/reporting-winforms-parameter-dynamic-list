@@ -3,11 +3,11 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T236094)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# WinForms Reporting - Create a Report Parameter with a List of Predefined Dynamic Values
+# Reporting for WinForms - Create a Report Parameter with a List of Predefined Dynamic Values
 
 This example demonstrates how to create a report parameter with a list of predefined dynamic values loaded from an Object data source.
 
-## Files to Look At:
+## Files to Review:
 
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
 * [EmployeeDataSource.cs](./CS/EmployeeDataSource.cs) (VB: [EmployeeDataSource.vb](./VB/EmployeeDataSource.vb))
