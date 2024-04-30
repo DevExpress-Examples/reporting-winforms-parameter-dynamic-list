@@ -1,6 +1,9 @@
+﻿#region dataSourceUsings
 using System.Collections.Generic;
+#endregion
 
 namespace Reporting_Create_Report_Parameter_with_Predefined_Dynamic_Values {
+    #region DataSource
     public class Employee {
         public string Name { get; set; }
         public string Position { get; set; }
@@ -35,4 +38,5 @@ namespace Reporting_Create_Report_Parameter_with_Predefined_Dynamic_Values {
                 yield return employee;
         }
     }
+    #endregion
 }
