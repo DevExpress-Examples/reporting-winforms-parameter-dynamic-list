@@ -1,8 +1,10 @@
+﻿#region usings
 using DevExpress.DataAccess.ObjectBinding;
 using DevExpress.XtraReports.Parameters;
 using Parameter = DevExpress.XtraReports.Parameters.Parameter;
 using System.Windows.Forms;
 using System;
+#endregion
 using DevExpress.XtraReports.UI;
 
 namespace Reporting_Create_Report_Parameter_with_Predefined_Dynamic_Values {
@@ -12,6 +14,7 @@ namespace Reporting_Create_Report_Parameter_with_Predefined_Dynamic_Values {
         }
 
         private void Form1_Load(object sender, EventArgs e) {
+            #region reportParameterWithDynamicValues
             // Create and set up an Object data source.
             var objectDataSource = new ObjectDataSource();
             objectDataSource.Name = "Employees";
@@ -39,6 +42,7 @@ namespace Reporting_Create_Report_Parameter_with_Predefined_Dynamic_Values {
             // Create a report instance and add the parameter to the report's Parameters collection.
             var report = new XtraReport1();
             report.Parameters.Add(param);
+            #endregion
 
             report.ShowPreview();
         }
